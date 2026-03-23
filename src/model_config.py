@@ -181,6 +181,12 @@ class ModelConfig:
             "provider": "zhipu",
             "api_key_var": "OPENROUTER_API_KEY",
             "litellm_input_model_name": "openrouter/z-ai/glm-4.5",
+        },
+        "qwen3.5-plus": {
+            "provider": "qwen",
+            "api_key_var": "DASHSCOPE_API_KEY",
+            "base_url_var": "DASHSCOPE_BASE_URL",
+            "litellm_input_model_name": "openai/qwen3.5-plus",
         }
     }
 

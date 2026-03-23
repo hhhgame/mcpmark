@@ -1,0 +1,24 @@
+{
+  "task_id": "opensea_floor_price_extraction",
+  "task_name": "OpenSea Floor Price Extraction",
+  "category_id": "eval_web",
+  "category_name": "Eval Web",
+  "description": "Navigate through rankings on OpenSea, filter based on time range and chain, and extract structured data for collections meeting a specific floor price threshold.",
+  "author": "Antigravity",
+  "created_at": "2026-03-23",
+  "difficulty": "L3",
+  "tags": [
+    "data extraction",
+    "opensea",
+    "nft",
+    "filtering"
+  ],
+  "mcp": [
+    "playwright"
+  ],
+  "meta_data": {
+    "stateType": "url",
+    "stateContent": "https://opensea.io/rankings",
+    "stateUrl": "https://opensea.io/rankings"
+  }
+}

@@ -18,6 +18,7 @@ Use Playwright MCP tools to extract all data from the specified website and pres
 
 ## CSV Data Example:
 
+**The CSV header must exactly match the following (including spaces after commas):**
 ```csv
 Title, Rating, Likes, Views, Replies
 SEO Optimization, "4.6", 756, 10123, 72
